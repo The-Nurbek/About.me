@@ -1,0 +1,74 @@
+@media(max-width:1200px) {
+    .nav {
+        padding: 0 20px;
+    }
+
+    .about__inner {
+        padding: 0 20px;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .woks_cards {
+        padding: 0 20px;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 47px 20px 55px 20px;
+    }
+
+    .about_inner_right-title {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media(max-width:992px) {
+}
+
+@media(max-width:768px) {
+    
+    .nav{
+        flex-direction: column;
+        
+    }
+    .header__content_title{
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+    .list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        padding-top: 20px;
+    }
+    .about__inner img{
+        width: 100%;
+    }
+    .footer__icons{
+      width: 100%;
+        max-width: 200px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer__title{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:375px) {
+    
+    .footer__title{
+        font-size: 31px;
+    }
+    .woks_cards img{
+        width: 100%;
+    }
+}
+
+@media(max-width:320px) {}
